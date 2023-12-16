@@ -2,7 +2,7 @@
   "name": "kevin_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kkjustadream.github.io",
+  "homepage": "https://kkjustadream.github.io/public",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.17.0",
