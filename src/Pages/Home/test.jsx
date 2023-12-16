@@ -48,14 +48,14 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="last-name"
               id="last-name"
-            //   required
+              required
             />
           </label>
-          {/* <ValidationError
+          <ValidationError
             prefix="Last Name"
             field="last-name"
             errors={state.errors}
-          /> */}
+          />
           <label htmlFor="email" className="contact--label">
             <span className="text-md">Email</span>
             <input
@@ -74,14 +74,14 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
-            //   required
+              required
             />
           </label>
         </div>
         <label htmlFor="choose-topic" className="contact--label">
           <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md" required >
-            <option disabled selected >Select One...</option>
+          <select id="choose-topic" className="contact--input text-md" required>
+            <option disabled>Select One...</option>
             <option>General</option>
             <option>Feedback </option>
             <option>Others</option>

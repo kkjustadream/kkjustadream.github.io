@@ -43,6 +43,14 @@
         "link_url": "https://github.com/kkjustadream"
       },
       {
+        "id": "2",
+        "src": "./img/placeholder-image-1.png",
+        "title": "App Dashboard",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "link": "View In Github",
+        "link_url": "https://github.com/kkjustadream"
+      },
+      {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
         "title": "Easy Rentn",

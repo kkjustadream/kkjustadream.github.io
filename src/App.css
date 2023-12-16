@@ -197,6 +197,10 @@ h3 {
 .navbar--active-content {
   color: var(--primary);
 }
+.logo {
+  width: 45px;
+  height: auto;
+}
 /* Navbar Styler Ends */
 
 
@@ -369,6 +373,8 @@ h3 {
 }
 .portfolio--section--container {
   display: flex;
+  /* Allow items to wrap to the next row */
+  /* flex-wrap: wrap;  */
   align-items: center;
   justify-content: center;
   gap: 42.6px;
@@ -386,7 +392,10 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  flex: 1 0 0;
+  /* Maximum three items per row */
+  /* flex: 1 0 calc(33.33% - 42.6px);  */
+  /* flex: 1 0 0; */
+  /* max-width: calc(33.33% - 42.6px);; */
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -515,6 +524,21 @@ h3 {
   border-radius: 8px;
   border: 2px solid var(--primary);
   background: var(--white);
+}
+.success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.success-message img {
+  width: 350px; 
+  height: auto; 
+  margin-bottom: 10px;
 }
 select {
   -webkit-appearance: none;
