@@ -374,7 +374,7 @@ h3 {
 .portfolio--section--container {
   display: flex;
   /* Allow items to wrap to the next row */
-  flex-wrap: wrap; 
+  /* flex-wrap: wrap;  */
   align-items: center;
   justify-content: center;
   gap: 42.6px;
@@ -393,10 +393,9 @@ h3 {
   align-items: flex-start;
   gap: 32px;
   /* Maximum three items per row */
-  flex: 1 0 calc(33.33% - 42.6px); 
-  /* flex: 1 0 30%;  */
-  max-width: 30%;
-  /* max-width: calc(33.33% - 42.6px); */
+  /* flex: 1 0 calc(33.33% - 42.6px);  */
+  /* flex: 1 0 0; */
+  /* max-width: calc(33.33% - 42.6px);; */
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -424,8 +423,7 @@ h3 {
   font-weight: 600;
   color: var(--primary)
 }
-/* When hover to card whole change color */
-.portfolio--section--card:hover .portfolio--link {
+.portfolio--link:hover {
   color: var(--github);
 }
 .portfolio--section--card:hover path {
@@ -700,11 +698,6 @@ input[type="checkbox"] {
   }
   .portfolio--container-box {
     gap: 30px;
-  }
-  /* when shrink to 1200, only display one card */
-  .portfolio--section--card {
-    flex: 1 0 0;
-    max-width: 100%;
   }
   .skills--section,
   .testimonial--section,
