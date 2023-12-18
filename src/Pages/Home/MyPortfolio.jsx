@@ -39,6 +39,7 @@ export default function MyPortfolio() {
               href={item.link_url}
               target="_blank"
               className="text-sm portfolio--link"
+              key={index}
             >
               <div key={index} className="portfolio--section--card">
                 <div className="portfolio--section--img">
