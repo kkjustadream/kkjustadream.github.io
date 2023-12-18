@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kkjustadream.github.io/static/css/main.585098fe.css",
-    "main.js": "/kkjustadream.github.io/static/js/main.a4761827.js",
+    "main.js": "/kkjustadream.github.io/static/js/main.29875a23.js",
     "index.html": "/kkjustadream.github.io/index.html",
     "main.585098fe.css.map": "/kkjustadream.github.io/static/css/main.585098fe.css.map",
-    "main.a4761827.js.map": "/kkjustadream.github.io/static/js/main.a4761827.js.map"
+    "main.29875a23.js.map": "/kkjustadream.github.io/static/js/main.29875a23.js.map"
   },
   "entrypoints": [
     "static/css/main.585098fe.css",
-    "static/js/main.a4761827.js"
+    "static/js/main.29875a23.js"
   ]
 }
