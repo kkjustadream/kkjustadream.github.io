@@ -374,7 +374,7 @@ h3 {
 .portfolio--section--container {
   display: flex;
   /* Allow items to wrap to the next row */
-  /* flex-wrap: wrap;  */
+  flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
   gap: 42.6px;
@@ -386,6 +386,11 @@ h3 {
 }
 .portfolio--section--img > img {
   width: 100%;
+}
+/* add this to let a tag not all row */
+.portfolio--section--container a {
+  flex: 1 0 calc(33.33% - 42.6px);
+  max-width: calc(33.33% - 42.6px);
 }
 .portfolio--section--card {
   display: flex;
@@ -412,6 +417,7 @@ h3 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  margin-bottom: 8px;
 }
 /* for view in github */
 .portfolio--link {

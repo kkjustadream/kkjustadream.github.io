@@ -28,32 +28,26 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/placeholder-image-2.png",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "src": "./img/FeastFinder.jpg",
+        "title": "Feast Finder",
+        "description": "FeastFinder emerged from a frustration with tedious food discovery. Simplifying the search for unique local restaurants, we connect users with their community through personalized recommendations. Using advanced machine learning, we revive the joy of food discovery, making it seamless and enjoyable.",
         "link": "View In Github",
-        "link_url": "https://github.com/kkjustadream"
+        "link_url": "https://github.com/kkjustadream/FeastFinder"
       },
+      
       {
         "id": "2",
-        "src": "./img/placeholder-image-2.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "src": "./img/shooting_game.jpg",
+        "title": "Shooting Game",
+        "description": "This is a simple shooting game where you can shoot targets to earn points. The game has different levels, modes, and scoring mechanisms. Enjoy playing and try to beat your high scores!",
         "link": "View In Github",
-        "link_url": "https://github.com/kkjustadream"
+        "link_url": "https://github.com/kkjustadream/ShootingGame"
       },
-      {
-        "id": "2",
-        "src": "./img/placeholder-image-2.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github",
-        "link_url": "https://github.com/kkjustadream"
-      },
+      
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
+        "title": "App Dashboard",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
         "link": "View In Github",
         "link_url": "https://github.com/kkjustadream"
