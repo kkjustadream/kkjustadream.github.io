@@ -27,7 +27,7 @@ export default function ContactMe() {
       <form className="contact--form--container" onSubmit={handleSubmit}>
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First Name</span>
+            <span className="text-md required">First Name</span>
             <input
               type="text"
               className="contact--input text-md"
@@ -42,7 +42,7 @@ export default function ContactMe() {
             errors={state.errors}
           />
           <label htmlFor="last-name" className="contact--label">
-            <span className="text-md">Last Name</span>
+            <span className="text-md required">Last Name</span>
             <input
               type="text"
               className="contact--input text-md"
@@ -57,7 +57,7 @@ export default function ContactMe() {
             errors={state.errors}
           /> */}
           <label htmlFor="email" className="contact--label">
-            <span className="text-md">Email</span>
+            <span className="text-md required">Email</span>
             <input
               type="email"
               className="contact--input text-md"
@@ -79,9 +79,9 @@ export default function ContactMe() {
           </label>
         </div>
         <label htmlFor="choose-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md" required >
-            <option disabled selected >Select One...</option>
+          <span className="text-md required">Choose a topic</span>
+          <select id="choose-topic" className="contact--input text-md" name="choose-topic" required >
+            {/* <option disabled selected >Select One...</option> */}
             <option>General</option>
             <option>Feedback </option>
             <option>Others</option>
@@ -92,13 +92,14 @@ export default function ContactMe() {
           <textarea
             className="contact--input text-md"
             id="message"
+            name="message"
             rows="8"
             placeholder="Type your message..."
           />
         </label>
         <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">
+          <span className="text-sm required">
             I accept to be contacted regarding this inquiry
           </span>
         </label>
