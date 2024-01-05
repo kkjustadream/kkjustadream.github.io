@@ -12,9 +12,9 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Currently a master's student at the University of Southern
             <br />
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            California studying Computer Science.
           </p>
         </div>
         <Link

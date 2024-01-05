@@ -1,82 +1,82 @@
 {
-    "skills": [
-      {
-        "id": "1",
-        "src": "./img/front-end.png",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "2",
-        "src": "./img/back-end.png",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "3",
-        "src": "./img/deep-learning.png",
-        "title": "Machine Learning",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "4",
-        "src": "./img/vision.png",
-        "title": "Computer Vision",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      }
-    ],
-    "portfolio": [
-      {
-        "id": "1",
-        "src": "./img/FeastFinder.jpg",
-        "title": "Feast Finder",
-        "description": "FeastFinder emerged from a frustration with tedious food discovery. Simplifying the search for unique local restaurants, we connect users with their community through personalized recommendations. Using advanced machine learning, we revive the joy of food discovery, making it seamless and enjoyable.",
-        "link": "View In Github",
-        "link_url": "https://github.com/kkjustadream/FeastFinder"
-      },
-      
-      {
-        "id": "2",
-        "src": "./img/shooting_game.jpg",
-        "title": "Shooting Game",
-        "description": "This is a simple shooting game where you can shoot targets to earn points. The game has different levels, modes, and scoring mechanisms. Enjoy playing and try to beat your high scores!",
-        "link": "View In Github",
-        "link_url": "https://github.com/kkjustadream/ShootingGame"
-      },
-      
-      {
-        "id": "3",
-        "src": "./img/placeholder-image-2.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github",
-        "link_url": "https://github.com/kkjustadream"
-      }
-    ],
-    "testimonial": [
-      {
-        "id": "1",
-        "count": "5",
-        "src": "./img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
-      },
-      {
-        "id": "2",
-        "count": "5",
-        "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
-      },
-      {
-        "id": "3",
-        "count": "5",
-        "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
-      }
-    ]
-  }
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/front-end.png",
+      "title": "Front-End",
+      "description": "I have experience building intuitive user interfaces using HTML, CSS, JavaScript, and React to create smooth front-end experiences."
+    },
+    {
+      "id": "2",
+      "src": "./img/back-end.png",
+      "title": "Back-End",
+      "description": "I excel at developing robust and secure back-end systems to drive complex applications and workflows using languages like Python, Java, Node.js and databases like MongoDB and MySQL."
+    },
+    {
+      "id": "3",
+      "src": "./img/deep-learning.png",
+      "title": "Machine Learning",
+      "description": "I possess working knowledge of major machine learning algorithms including regression, classification and clustering techniques using libraries like TensorFlow, OpenCV and Scikit-Learn."
+    },
+    {
+      "id": "4",
+      "src": "./img/vision.png",
+      "title": "Computer Vision",
+      "description": "I have good understanding of popular computer vision techniques like image classification, object detection using convolutional neural networks"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/FeastFinder.jpg",
+      "title": "Feast Finder",
+      "description": "FeastFinder emerged from a frustration with tedious food discovery. Simplifying the search for unique local restaurants, we connect users with their community through personalized recommendations. Using advanced machine learning, we revive the joy of food discovery, making it seamless and enjoyable.",
+      "link": "View In Github",
+      "link_url": "https://github.com/kkjustadream/FeastFinder"
+    },
+
+    {
+      "id": "2",
+      "src": "./img/shooting_game.jpg",
+      "title": "Shooting Game",
+      "description": "This is a simple shooting game where you can shoot targets to earn points. The game has different levels, modes, and scoring mechanisms. Enjoy playing and try to beat your high scores!",
+      "link": "View In Github",
+      "link_url": "https://github.com/kkjustadream/ShootingGame"
+    },
+
+    {
+      "id": "3",
+      "src": "./img/computer_vision.jpg",
+      "title": "Computer Vision",
+      "description": "Developed computer vision applications for hand gesture recognition, facial feature identification, fitness posture tracking and real-time sudoku solving using OpenCV for image processing and neural networks for object classification.",
+      "link": "View In Github",
+      "link_url": "https://github.com/kkjustadream/Computer-Vision"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
